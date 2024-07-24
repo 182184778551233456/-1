@@ -53,7 +53,7 @@ void print_sqlist(Sqlist* sqlist) {
 void ereas_sqlist_index(Sqlist*sqlist,int index) {
 	assert(sqlist);
 	if (index <= 0 || index > sqlist->count) {
-		printf("ÎŞĞ§ĞòºÅ\n");
+		printf("ÃÃÃÂ§ÃÃ²ÂºÃ…\n");
 		return;
 	}
 	for (int i = index - 1; i < sqlist->count - 1; i++) {
